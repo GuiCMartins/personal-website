@@ -1,0 +1,124 @@
+body {
+  color: #40514e;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+hr {
+  border: 6px dotted #eaf6f6;
+  border-top: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+}
+
+.top-container {
+  position: relative;
+  background-color: #e4f9f5;
+  padding-top: 100px;
+}
+
+.profile {
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
+
+.skill-row {
+  width: 50vw;
+  height: 200px;
+  margin: 50px auto 50px auto;
+  text-align: justify;
+}
+
+.skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.middle-container {
+  margin: 100px 0px;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #66bfbf;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.contact-btn {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 20px;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  background-image: linear-gradient(#11cdd4, #11999e);
+}
+
+.contact-btn:hover {
+  background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}

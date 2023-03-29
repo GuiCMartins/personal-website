@@ -3,82 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <title>Guilherme's Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Merriweather&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
-            <td>
-                <img width="200" src="images/MyPhoto.png" alt="Image of Guilherme" />
-              </td>
-        </td>
-        <td>
-          <h1>Guilherme Cruz Martins</h1>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="Cloud image" />
+      <h1>I'm Guilherme</h1>
+      <h2>a programmer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="Cloud image" />
+      <img src="images/mountain.png" alt="Mountain image" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/me.png" alt="My photo" />
+        <h2>Hello.</h2>
+        <p>
+          Formado em Ciência da computação pela Universidade do Vale do Itajaí,
+          tabalho como desenvolvedor web fullstack em uma empresa de
+          desenvolvimento de software jurídico.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="skill-img" src="images/skills.png" alt="" />
+          <h3>Javascript - React</h3>
           <p>
-            <em>Founder of <a href="https://alphabyte.site"> Alphabyte </a></em>
+            No frontend tenho experiência de trabalho com a biblioteca React
+            (Javascript), criando soluções vísuais para aplicações web.
           </p>
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Academic Experience</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>
-                    Dates
-                </th>
-                <th>
-                    College
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    2017 - 2022
-                </td>
-                <td>
-                    Computer Cience - UNIVALI
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    2017 - now
-                </td>
-                <td>
-                    Public Administration - UDESC
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Work Experience</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>
-                    Dates
-                </th>
-                <th>
-                    Work
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    2021 - now
-                </td>
-                <td>
-                    Alkasoft
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>About Me</h3>
-    <a href="Pages/hobbies.html">My Hobbies</a>
-    <a href="Pages/contact.html">Contact Me</a>
+        </div>
+        <div class="skill-row">
+          <img class="skill-img" src="images/skills.png" alt="" />
+          <h3>Java</h3>
+          <p>
+            No backend tenho experiência de trabalho com Java, desenvolvendo
+            APIs para serem integradas ao frontend.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="skill-img" src="images/skills.png" alt="" />
+          <h3>SQL</h3>
+          <p>
+            Também no backend tenho experiência de trabalho com a linguagem SQL,
+            utilizando o banco de dados MariaDB para armazenamento de dados.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <h2>Get In Touch</h2>
+        <h3 class="contact-message">
+          Interessado(a) em mais detalhes entre em contato ao meu e-mail ou em
+          minhas redes sociais.
+        </h3>
+        <a class="contact-btn" href="mailto:guilhermecmartins99@gmail.com"
+          >CONTACT ME</a
+        >
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://www.facebook.com/guilherme.martins.75098"
+        >Facebook</a
+      >
+      <a
+        class="footer-link"
+        href="https://www.instagram.com/guilhermec_martins/"
+        >Instagram</a
+      >
+      <a class="footer-link" href="https://github.com/GuiCMartins">Github</a>
+      <p class="copyright">
+        &#169; Guilherme Cruz Martins. Icon made by ultimatearm and
+        vectorsmarket15 from www.flaticon.com
+      </p>
+    </div>
   </body>
 </html>
